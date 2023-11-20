@@ -1,0 +1,42 @@
+I wanna do a form to subscribe to a monthly playlist of chill songs
+
+Text:
+Vibe Check: Monthly Chill Tunes 🎧
+
+Your monthly dose of mellow beats and serene sounds, delivered straight to your inbox.
+
+Slide into the groove!
+
+First Name: [ Text Field ]
+
+Last Name: [ Text Field ]
+
+Email: [ Text Field ]
+
+Confirm Email: [ Text Field ]
+
+[ Subscribe ]
+
+By tapping Subscribe, you agree to receive our playlist packed with the chillest tunes every month. Unsubscribe whenever - no strings attached.
+
+
+Colors:
+Background: A soft, soothing blue to set the relaxed mood.
+RGB: (173, 216, 230) - Think of a light sky blue, perfect for the background.
+
+Form Fields: A slightly darker shade for the input fields to provide a gentle contrast.
+RGB: (135, 206, 235) - This is a sky blue color, ideal for the form fields to make them pop a bit.
+
+Input Field Focus: A mint green to indicate active selection.
+RGB: (152, 255, 152) - This is a soft, minty green that will gently highlight the active field.
+
+Text and Headings: A deep, dark blue for the text to ensure readability.
+RGB: (25, 25, 112) - A midnight blue, great for text and making the headings stand out.
+
+Subscribe Button: A vibrant, inviting shade to encourage clicks.
+RGB: (30, 144, 255) - This is a dodger blue, very eye-catching for your subscribe button.
+
+
+Font:
+Raleway
+
