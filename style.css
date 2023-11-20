@@ -1,5 +1,69 @@
+
+
 body{
     font-family: Raleway, sans-serif;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    min-height: 100vh;
+    
+}
+
+.decoration{
+    flex: 1;
+    background-image: url(images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+
+.decoration div{
+    background-color: #A9E9DA;
+    width: 100%;
+    aspect-ratio: 4/1;
+    opacity: 0.7;
+    flex: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.logo{
+    height: 100px;
+    aspect-ratio: 1/1;
+}
+
+
+.content{
+    flex: 2;
+    background-color: rgb(173, 216, 230);
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 + div{
+    font-size: 1.4rem;
+}
+
+h1{
+    margin-bottom: 12px;
+}
+
+fieldset{
+    border: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-field{
+    background-color: rgb(200, 238, 242);
 }
