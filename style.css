@@ -148,6 +148,8 @@ button{
     background-color: rgb(78, 165, 253);
     padding: 6px;
     border: 2px solid #441eee;
+    color:#441eee;
+    font-weight: 600;
     font-size: 1.15rem;
     max-height: 50px;
 }
