@@ -40,3 +40,13 @@ RGB: (30, 144, 255) - This is a dodger blue, very eye-catching for your subscrib
 Font:
 Raleway
 
+
+
+Javascript:
+if password match 
+remove classes
+add valid
+
+if password doesn't match
+remove classes
+add invalid
