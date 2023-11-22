@@ -16,8 +16,8 @@ fieldset{
     border: none;
     padding-left: 9vw;
     padding-right: 9vw;
-    padding-top: 5.1vh;
-    padding-bottom: 4.9vh;
+    padding-top: 5vh;
+    padding-bottom: 4.8vh;
 }
 
 ul{
@@ -115,7 +115,7 @@ li{
 }
 
 input{
-    flex: 1 1 60%;
+    flex: 1 1 100%;
     max-width: 250px;
     padding: 4px;
     font-size: 0.9rem ;
@@ -133,9 +133,22 @@ input:invalid{
     border: 1px solid red;
 }
 
+input:invalid + span::before{
+    color: red;
+    content: "Invalid field";
+    font-size: 0.6rem;
+}
+span{
+    
+    margin-top: -6px;
+}
+
 
 input:placeholder-shown{
     border:0.5px inset rgb(25, 173, 231)
+}
+input:placeholder-shown + span::before{
+    content: "";
 }
 
 fieldset:last-child{
